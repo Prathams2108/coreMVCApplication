@@ -11,6 +11,7 @@ namespace backend.Models
         public int bookISBN { get; set; }
         public string bookTitle { get; set; }
         public string bookAuthor { get; set; }
+        public string bookGenre { get; set; }
         public bool isAvailable { get; set; }
     }
 }
